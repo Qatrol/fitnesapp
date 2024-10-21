@@ -11,11 +11,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  bloc:
   flutter_bloc:
+  equatable:
   flutter_svg:
   cupertino_icons: ^1.0.8
   meta: ^1.15.0
+  firebase_core:
+  firebase_auth:
+
+  cloud_firestore: ^5.4.4
+  get_it:
 
 dev_dependencies:
   flutter_test:
